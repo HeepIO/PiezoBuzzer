@@ -20,7 +20,7 @@ void setup()
   Serial.begin(115200);
   InitializeControlHardware();
   AddRangeControl("Frequency",HEEP_INPUT,100,0,0);
-  StartHeep("PiezoBuzzer", 5);
+  StartHeep(heepDeviceName, 5);
 
 }
 
